@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+
+
+
+body{
+    background-color: #d9b3ff;
+}
+
+button{
+    width: 8rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #330066;
+    color: #f2e6ff;
+    border: none;
+    border-radius: 0.5rem;   
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    right: 0;
+}
+
+button:hover{
+    background-color: purple;
+}
+
+/* Funciona no Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+}
+/* Funciona no Chrome, Edge e Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    background: orange;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
